@@ -2,7 +2,7 @@
 
 Шейдер для скинов CS:GO, используется на моделях оружия и ножах
 
-### Параметры шейдера:  
+## Параметры шейдера:  
 
 ### "$PREVIEW" ###
  >  Без него игра будет вылетать, всегда ставить значение на 1
@@ -111,43 +111,43 @@
 
 Всегда ставить значение на ``1``
 
-###"$PREVIEWPHONGALBEDOTINT"###  
+### "$PREVIEWPHONGALBEDOTINT" ###  
 >  Значение брать из оригинального ``vmt`` оружия
 
 
-###"$PREVIEWENVMAP"### 
+### "$PREVIEWENVMAP" ### 
 >  Ставить значние на ``1``, если в оригинальном ``vmt`` используется ``$envmap``
 
-###"$WEARPROGRESS###" 
+### "$WEARPROGRESS" ### 
 > Степень износа от ``0`` до ``1``, где ``0`` - износа нету, а ``1`` - максимальный износ(нет?)
 
-###"$PREVIEWWEAPONOBJSCALE"### 
+### "$PREVIEWWEAPONOBJSCALE" ### 
 > Специфический масштабный коэффициент оружия для паттернов, применяемых через проекции объектного пространства(чот сложно)
 
 Стандартное значние для скинов ``1.0485``
 
 
-###"$PREVIEWWEAPONUVSCALE"### 
+### "$PREVIEWWEAPONUVSCALE" ### 
 > Специфический масштабный коэффициент оружия для паттернов, применяемых через `UV`
 
 
-###"$paintname"### 
+### $paintname" ### 
 > Название скина из ``csgo\scripts\items\items_game.txt``, бесполезный(пока?) параметр в CSSO
 
 
-###"$previewphongalbedoboost"### 
+### $previewphongalbedoboost" ### 
 > Усиление Альбедо Фонга для скина.
 
 Для скинов значение брать из ``csgo\scripts\items\items_game.txt`` с помощью "ID" скина, которое можно найти на [сайте]( https://csgostash.com/) (а нахуя два одинаковых значения?)
 
 
-###"$painttexture"### 
+### "$painttexture" ### 
 >  Текстура скина или паттерн из КСГОшного pak01.dir в папке ``/materials/models/weapons/customization/paints/``
 
 Оригинальное название текстуры есть в ``csgo\scripts\items\items_game.txt``, искать по "ID" скина , которое можно найти на [сайте]( https://csgostash.com/)
 
 
-###"$paintstyle"### 
+### "$paintstyle" ### 
 > Способ наложения паттерна или скина на модель.
 
 Имеет значения: 
@@ -164,16 +164,16 @@
 Способ наложения есть в ``csgo\scripts\items\items_game.txt``, искать по "ID" скина , которое можно найти на [сайте]( https://csgostash.com/)
 ⠀
 
-###"$camocolor0"### 
+### "$camocolor0" ### 
 > Цвет кастомизации 0 ( заменяет красный канал `$painttexture` ) 
 
-###"$camocolor1"### 
+### "$camocolor1" ### 
 > Цвет кастомизации 1 ( заменяет зелёный канал `$painttexture` )   
 
-###"$camocolor2"### 
+### "$camocolor2" ### 
 > Цвет кастомизации 2 ( заменяет синий канал `$painttexture` )
 
-###"$camocolor3"### 
+### "$camocolor3" ### 
 > Цвет кастомизации 3 ( заменяет альфа канал `$painttexture` )
 
  - В зависимости от `$paintstyle` цвета будут по разному накладыватся или воовсе будут игнорироватся
@@ -183,25 +183,25 @@
 Значение брать из ``csgo\scripts\items\items_game.txt`` с помощью "ID" скина, которое можно найти на [сайте]( https://csgostash.com/)
 
 
-###"$PATTERNTEXTURETRANSFORM"### 
+### "$PATTERNTEXTURETRANSFORM" ### 
 > Трасформация текстуры скина.
 
 Стандартное значение ```"center 1 1 scale 1.6 1.6 rotate 0 translate 0 0"``` , кроме scale, который находится в ``csgo\scripts\items\items_game.txt`` с помощью "ID" скина, которое можно найти на [сайте]( https://csgostash.com/)
 
 
-###"$PHONGEXPONENT"### 
+### "$PHONGEXPONENT" ### 
 > Фонг Экспонент для скина.
 
 Значение брать ``из csgo\scripts\items\items_game.txt`` с помощью "ID" скина, которое можно найти на [сайте]( https://csgostash.com/)
 
 
-###"$PHONGINTENSITY"### 
+### "$PHONGINTENSITY" ### 
  > Интенсивность Фонга для скина.
  
  Значение брать из ``csgo\scripts\items\items_game.txt с помощью "ID" скина, которое можно найти на [сайте]( https://csgostash.com/). Если его там нету, то убрать параметр
 
 
-###"$PREVIEWIGNOREWEAPONSCALE"### 
+### "$PREVIEWIGNOREWEAPONSCALE" ### 
 > 1 = игнорировать "$PREVIEWWEAPONOBJSCALE"
 > 0 = применять  ###"$PREVIEWWEAPONOBJSCALE"### ?(надо проверить)
 
