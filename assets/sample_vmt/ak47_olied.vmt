@@ -1,0 +1,73 @@
+"CustomWeapon"
+{
+	"$PREVIEW" 1
+	"$grungetexture" "models\weapons\customization\shared\gun_grunge"
+	"$weartexture" "models\weapons\customization\shared\paint_wear"
+	
+	//-------------------------------------------------
+	// MUST SET THIS BLOCK PER WEAPON
+	//-------------------------------------------------
+
+	"$surfacetexture" "models\weapons\customization\rif_ak47\rif_ak47_surface"
+	"$maskstexture" "models\weapons\customization\rif_ak47\rif_ak47_masks"
+	"$aotexture" "models\weapons\customization\rif_ak47\rif_ak47_ao"
+	"$postexture" "models\weapons\customization\rif_ak47\rif_ak47_pos"
+	"$exptexture" "models\weapons\v_models\rif_ak47\ak47_exponent"
+	"$WEARTEXTURETRANSFORM" "scale 2.1 2.1 translate 0 0 rotate 0"
+	"$GRUNGETEXTURETRANSFORM" "scale 2.1 2.1 translate 0 0 rotate 0"
+	
+	"$basetexture" "models\weapons\v_models\rif_ak47\ak47"
+	"$phongboost" "2"
+	"$phongalbedoboost" "35"
+	"$phongfresnelranges" "[.83 .83 1]"
+	"$basemapalphaphongmask" "1"
+
+	"$envmap" "env_cubemap"
+	"$envmapfresnel" "1"
+	"$envmaptint" 		"[1 1 1]"
+
+	"$phongalbedotint" "1"
+
+	"$phongdisablehalflambert" "1"
+		
+	// SET THIS IF $PHONGALBEDOTINT IS ENABLED ON THE ORIGINAL WEAPON MATERIAL
+	"$PREVIEWPHONGALBEDOTINT" 1
+		
+	// SET THIS IF $ENVMAP IS ENABLED ON THE ORIGINAL WEAPON MATERIAL
+	"$PREVIEWENVMAP" 1
+		
+	// WEAR PROGRESSION FACTOR
+	"$WEARPROGRESS" 0
+	
+	
+	"$PREVIEWWEAPONOBJSCALE" 1.0485
+	"$PREVIEWWEAPONUVSCALE" 0.549
+	
+	//-------------------------------------------------
+	// MUST SET THIS BLOCK PER PAINT
+	//-------------------------------------------------
+	"$paintname" "aq_oiled"
+	"$paintphongalbedoboost" "80"
+		
+	// PAINT PATTERN TEXTURE
+	"$painttexture" "models\weapons\customization\paints\antiqued\oiled"
+	
+	// PAINT STYLE: 1 = SOLID COLORS, 2 = HYDROGRAPHIC, 3 = SPRAYPAINTED, 
+	// 		4 = ANODIZED SOLID COLORS, 5 = ANODIZED PATTERNED, 6 = ANODIZED AIRBRUSHED, 
+	//		7 = CUSTOM TEXTURE APPLIQUE, 
+	//		8 = PATINA/ANTIQUED
+	"$paintstyle"	8
+	"$camocolor0"	"[120 111 101]"
+	"$camocolor1"	"[120 111 101]"
+	"$camocolor2"	"[102 96 89]"
+	"$camocolor3"	"[30 34 47]"
+	// TEXTURE UV TRANFORMs
+	"$PATTERNTEXTURETRANSFORM" "center 1 1 scale 1 1 rotate 50 translate 46.71 48.35"
+	// PHONG EXPONENT FOR PAINTS
+	"$PHONGEXPONENT" 25
+	// PHONG INTENSITY FOR PAINTS
+	//"$PHONGINTENSITY" "80"
+
+	"$PREVIEWIGNOREWEAPONSCALE" 0
+	
+}
