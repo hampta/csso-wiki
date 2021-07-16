@@ -131,11 +131,11 @@
 > Специфический масштабный коэффициент оружия для паттернов, применяемых через `UV`
 
 
-### $paintname" ### 
+### "$paintname" ### 
 > Название скина из ``csgo\scripts\items\items_game.txt``, бесполезный(пока?) параметр в CSSO
 
 
-### $previewphongalbedoboost" ### 
+### "$previewphongalbedoboost" ### 
 > Усиление Альбедо Фонга для скина.
 
 Для скинов значение брать из ``csgo\scripts\items\items_game.txt`` с помощью "ID" скина, которое можно найти на [сайте]( https://csgostash.com/) (а нахуя два одинаковых значения?)
